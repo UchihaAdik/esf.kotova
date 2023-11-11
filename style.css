@@ -23,10 +23,17 @@ header {
   border: 1px solid black;
   margin: auto;
 }
-
-.nav-bar {
+.header-conteiner .nav-bar {
   width: 100%;
-  height: 100px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-conteiner .nav-bar .nav-bar-left {
+  border: 1px solid black;
+}
+.header-conteiner .nav-bar .nav-bar-right {
   border: 1px solid black;
 }
 
