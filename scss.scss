@@ -1,50 +1,369 @@
-
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+f * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-h1, h2, h3, h4, h5, h6{
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
-a{
-    text-decoration: none;
-}header{
-    margin: auto;
-    background-color: rgb(219, 224, 224);
+a {
+  text-decoration: none;
 }
-.header-conteiner{
-    max-width: 1400px;
-    height: 600px;
-    border: 1px solid black;
-    margin: auto;
-    .nav-bar{
-        width: 100%;
-        height: 80px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        .nav-bar-left{
-            border: 1px solid black;
-        }
-        .nav-bar-right{
-            
-            border: 1px solid black;
-            
-        }
+header {
+  margin: auto;
+  background-color: rgb(219, 224, 224);
+}
+.header-conteiner {
+  max-width: 1400px;
+  height: 600px;
+  border: 1px solid black;
+  margin: auto;
+  .nav-bar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .nav-bar-left {
+      border: 1px solid black;
     }
+    .nav-bar-right {
+      border: 1px solid black;
+    }
+  }
 }
+.main {
+  max-width: 1400px;
+  height: 100%;
+  margin: 0 auto;
+  .main-conteiner {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
 
-
-
-main{
-    margin: auto;
-    border: 1 px solid black;
+    .main-conteiner1 {
+      width: 20%;
+      margin: 50px 60px;
+      display: flex;
+      justify-content: center;
+      .column1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+      }
+      .column1 h2 {
+        line-height: normal;
+        font-size: 46px;
+        color: #a65b4c;
+        font-family: "EB Garamond";
+      }
+      .column1-1 {
+        line-height: 1.4em;
+        font-size: 16px;
+      }
+      .flex-column {
+        display: flex;
+        gap: 40px;
+      }
+    }
+  }
 }
-
-footer{
-    margin: auto;
-    border: 1 px solid black;
+.href__btn {
+  border: 1px solid black;
+  width: 300px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.href__btn a {
+  color: black;
+  font-family: "EB Garamond", serif;
+  transition: 0.5s;
+}
+.href__btn a:hover {
+  transition: 0.5s;
+  color: #9d5547;
+}
+.column2 {
+  //   border: 1px solid black;
+  display: flex;
+  width: 50%;
+  height: 400px;
+  margin-top: 40px;
+  justify-content: end;
+  .column2-2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    gap: 20px;
+    justify-content: flex-start;
+  }
+  .column2-2 a {
+    color: black;
+    transition: 0.3s;
+    font-size: "EB Garamond", serif;
+  }
+}
+.column2-2 a:hover {
+  transition: 0.3s;
+  color: #a65b4c;
+}
+.main2 {
+  background-color: #aeb5ad;
+  max-width: 1350px;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  .main__inner {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 105px;
+  }
+  .text1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    width: 20%;
+    .text1 p {
+      line-height: 1.6em;
+      font-size: 16px;
+    }
+  }
+}
+.text2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  height: 100%;
+  width: 20%;
+}
+.text3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  height: 100%;
+  width: 20%;
+}
+.section1 {
+  max-width: 1400px;
+  height: 220px;
+  .insights {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 150px;
+    font-size: 30px;
+    color: #a65b4c;
+  }
+}
+.section2 {
+  height: 700px;
+  max-width: 1400px;
+  .section__inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-left: 20px;
+    font-family: "EB Garamond", serif;
+    .color1 {
+      color: #a65b4c;
+    }
+    .block1 {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .block1 h2 {
+      font-size: 40px;
+      .section__inner p {
+        font-size: 20px;
+      }
+    }
+  }
+}
+.block2 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .h2 {
+    font-size: 30px;
+    .p1 {
+      font-size: 18px;
+    }
+  }
+}
+.block3 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .hh2 {
+    font-size: 30px;
+    .p2 {
+      font-size: 18px;
+    }
+  }
+}
+.block4 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .hhh2 {
+    font-size: 30px;
+    .p3 {
+      font-size: 18px;
+    }
+  }
+}
+.block5 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .hhhh2 {
+    font-size: 30px;
+    .p4 {
+      font-size: 18px;
+    }
+  }
+}
+footer {
+  margin: auto;
+  border: 1 px solid black;
 }
 /* #c0a18c */
+@media all and(max-width: 600px) {
+  .main-conteiner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    .main-conteiner1 {
+      .flex-columns {
+        .column1 {
+          height: 300px;
+          margin-bottom: 0;
+          .column1-1 {
+            .href__btn {
+              padding: 50px;
+            }
+          }
+        }
+      }
+
+      .column2 {
+        margin-top: 0;
+        width: 100%;
+        .column2-2 {
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .main2 {
+    width: 100%;
+    height: 100%;
+    .main__inner {
+      width: 100%;
+      flex-direction: column;
+      gap: 40px;
+      align-items: center;
+      .text1 {
+        width: 90%;
+        text-align: center;
+      }
+      .text2 {
+        width: 90%;
+      }
+      .text3 {
+        width: 90%;
+      }
+    }
+  }
+  .section2 {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    .section__inner {
+      align-items: center;
+      font-size: 30px;
+      width: 90%;
+      font-family: "EB Garamond", serif;
+      .block1 {
+        width: 100%;
+        .half {
+          h2 {
+            font-size: 45px;
+          }
+        }
+        .color1 {
+          color: #a65b4c;
+        }
+        // .block1 {
+        //   .half {
+        //     h2 {
+        //       font-size: 30px;
+        //     }
+        //   }
+        // }
+        .p5 {
+          font-size: 25px;
+        }
+      }
+      .block2 {
+        width: 100%;
+        .color1 {
+          color: #a65b4c;
+        }
+        .p1 {
+          font-size: 25px;
+        }
+      }
+      .block3 {
+        .color1 {
+          color: #a65b4c;
+        }
+        .p2 {
+          font-size: 25px;
+        }
+      }
+      .block4 {
+        .color1 {
+          color: #a65b4c;
+        }
+        .p3 {
+          font-size: 25px;
+        }
+      }
+      .block5 {
+        .color1 {
+          color: #a65b4c;
+        }
+        .p4 {
+          font-size: 25px;
+        }
+      }
+      h2 {
+        font-size: 45px;
+      }
+    }
+  }
+}

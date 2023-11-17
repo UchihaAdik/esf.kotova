@@ -4,7 +4,12 @@
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -47,4 +52,4 @@ footer {
   border: 1 px solid black;
 }
 
-/* #c0a18c *//*# sourceMappingURL=scss.css.map */
+/* #c0a18c */ /*# sourceMappingURL=scss.css.map */

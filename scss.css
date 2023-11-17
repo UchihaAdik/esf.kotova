@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+f * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  margin: auto;
+  background-color: rgb(219, 224, 224);
+}
+
+.header-conteiner {
+  max-width: 1400px;
+  height: 600px;
+  border: 1px solid black;
+  margin: auto;
+}
+.header-conteiner .nav-bar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-conteiner .nav-bar .nav-bar-left {
+  border: 1px solid black;
+}
+.header-conteiner .nav-bar .nav-bar-right {
+  border: 1px solid black;
+}
+
+.main {
+  max-width: 1400px;
+  height: 100%;
+  margin: 0 auto;
+}
+.main .main-conteiner {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+.main .main-conteiner .main-conteiner1 {
+  width: 20%;
+  margin: 50px 60px;
+  display: flex;
+  justify-content: center;
+}
+.main .main-conteiner .main-conteiner1 .column1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 50px;
+}
+.main .main-conteiner .main-conteiner1 .column1 h2 {
+  line-height: normal;
+  font-size: 46px;
+  color: #a65b4c;
+  font-family: "EB Garamond";
+}
+.main .main-conteiner .main-conteiner1 .column1-1 {
+  line-height: 1.4em;
+  font-size: 16px;
+}
+.main .main-conteiner .main-conteiner1 .flex-column {
+  display: flex;
+  gap: 40px;
+}
+
+.href__btn {
+  border: 1px solid black;
+  width: 300px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.href__btn a {
+  color: black;
+  font-family: "EB Garamond", serif;
+  transition: 0.5s;
+}
+
+.href__btn a:hover {
+  transition: 0.5s;
+  color: #9d5547;
+}
+
+.column2 {
+  display: flex;
+  width: 50%;
+  height: 400px;
+  margin-top: 40px;
+  justify-content: end;
+}
+.column2 .column2-2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 50px;
+  gap: 20px;
+  justify-content: flex-start;
+}
+.column2 .column2-2 a {
+  color: black;
+  transition: 0.3s;
+  font-size: "EB Garamond", serif;
+}
+
+.column2-2 a:hover {
+  transition: 0.3s;
+  color: #a65b4c;
+}
+
+.main2 {
+  background-color: #aeb5ad;
+  max-width: 1350px;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+.main2 .main__inner {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 105px;
+}
+.main2 .text1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+  width: 20%;
+}
+.main2 .text1 .text1 p {
+  line-height: 1.6em;
+  font-size: 16px;
+}
+
+.text2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  height: 100%;
+  width: 20%;
+}
+
+.text3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  height: 100%;
+  width: 20%;
+}
+
+.section1 {
+  max-width: 1400px;
+  height: 220px;
+}
+.section1 .insights {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-left: 150px;
+  font-size: 30px;
+  color: #a65b4c;
+}
+
+.section2 {
+  height: 700px;
+  max-width: 1400px;
+}
+.section2 .section__inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-left: 20px;
+  font-family: "EB Garamond", serif;
+}
+.section2 .section__inner .color1 {
+  color: #a65b4c;
+}
+.section2 .section__inner .block1 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section2 .section__inner .block1 h2 {
+  font-size: 40px;
+}
+.section2 .section__inner .block1 h2 .section__inner p {
+  font-size: 20px;
+}
+
+.block2 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.block2 .h2 {
+  font-size: 30px;
+}
+.block2 .h2 .p1 {
+  font-size: 18px;
+}
+
+.block3 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.block3 .hh2 {
+  font-size: 30px;
+}
+.block3 .hh2 .p2 {
+  font-size: 18px;
+}
+
+.block4 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.block4 .hhh2 {
+  font-size: 30px;
+}
+.block4 .hhh2 .p3 {
+  font-size: 18px;
+}
+
+.block5 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.block5 .hhhh2 {
+  font-size: 30px;
+}
+.block5 .hhhh2 .p4 {
+  font-size: 18px;
+}
+
+footer {
+  margin: auto;
+  border: 1 px solid black;
+}
+
+/* #c0a18c */
+@media all and (max-width: 600px) {
+  .main-conteiner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .main-conteiner .main-conteiner1 .flex-columns .column1 {
+    height: 300px;
+    margin-bottom: 0;
+  }
+  .main-conteiner .main-conteiner1 .flex-columns .column1 .column1-1 .href__btn .href__btn a {
+    height: 500px;
+  }
+  .main-conteiner .column2 {
+    margin-top: 0;
+    width: 100%;
+  }
+  .main-conteiner .column2 .column2-2 {
+    width: 100%;
+    text-align: center;
+  }
+  .main2 {
+    width: 100%;
+    height: 100%;
+  }
+  .main2 .main__inner {
+    width: 100%;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+  .main2 .main__inner .text1 {
+    width: 90%;
+    text-align: center;
+  }
+  .main2 .main__inner .text2 {
+    width: 90%;
+  }
+  .main2 .main__inner .text3 {
+    width: 90%;
+  }
+  .section2 {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+  }
+  .section2 .section__inner {
+    align-items: center;
+    font-size: 30px;
+    width: 90%;
+    font-family: "EB Garamond", serif;
+  }
+  .section2 .section__inner .block1 {
+    width: 100%;
+  }
+  .section2 .section__inner .block1 .half h2 {
+    font-size: 45px;
+  }
+  .section2 .section__inner .block1 .color1 {
+    color: #a65b4c;
+  }
+  .section2 .section__inner .block1 .p5 {
+    font-size: 25px;
+  }
+  .section2 .section__inner .block2 {
+    width: 100%;
+  }
+  .section2 .section__inner .block2 .color1 {
+    color: #a65b4c;
+  }
+  .section2 .section__inner .block2 .p1 {
+    font-size: 25px;
+  }
+  .section2 .section__inner .block3 .color1 {
+    color: #a65b4c;
+  }
+  .section2 .section__inner .block3 .p2 {
+    font-size: 25px;
+  }
+  .section2 .section__inner .block4 .color1 {
+    color: #a65b4c;
+  }
+  .section2 .section__inner .block4 .p3 {
+    font-size: 25px;
+  }
+  .section2 .section__inner .block5 .color1 {
+    color: #a65b4c;
+  }
+  .section2 .section__inner .block5 .p4 {
+    font-size: 25px;
+  }
+  .section2 .section__inner h2 {
+    font-size: 45px;
+  }
+}/*# sourceMappingURL=scss.css.map */
