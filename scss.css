@@ -83,6 +83,7 @@ p {
 }
 .menu__item:hover {
   background-color: #CFD8DC;
+  color: #a65b4c;
 }
 /* еще код */
 #menu__toggle:checked ~ .menu__btn > span {
@@ -452,12 +453,13 @@ header {
   gap: 40px;
   padding-left: 20px;
   font-family: "EB Garamond", serif;
+  justify-content: space-around;
 }
 .section2 .section__inner .color1 {
   color: #a65b4c;
 }
 .section2 .section__inner .block1 {
-  width: 30%;
+  width: 350px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -470,7 +472,7 @@ header {
 }
 
 .block2 {
-  width: 30%;
+  width: 350px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -483,7 +485,7 @@ header {
 }
 
 .block3 {
-  width: 400px;
+  width: 350px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -496,7 +498,7 @@ header {
 }
 
 .block4 {
-  width: 400px;
+  width: 350px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -509,7 +511,7 @@ header {
 }
 
 .block5 {
-  width: 400px;
+  width: 350px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -523,6 +525,9 @@ header {
 
 /* медиа */
 @media all and (max-width: 650px) {
+  .section2{
+    text-align: center;
+  }
   .div__column {
     font-size: 35px;
     text-align: 1px;
@@ -592,9 +597,7 @@ header {
     width: 90%;
     font-family: "EB Garamond", serif;
   }
-  .section2 .section__inner .block1 {
-    width: 100%;
-  }
+ 
   .section2 .section__inner .block1 .half h2 {
     font-size: 45px;
   }
@@ -604,9 +607,7 @@ header {
   .section2 .section__inner .block1 .p5 {
     font-size: 25px;
   }
-  .section2 .section__inner .block2 {
-    width: 100%;
-  }
+  
   .section2 .section__inner .block2 .color1 {
     color: #a65b4c;
   }
