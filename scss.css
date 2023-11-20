@@ -151,7 +151,7 @@ header {
   transition: 0.1s;
 }
 .header-conteiner .nav-bar .nav-bar-right a {
-  font-size: 20px;
+  font-size: 25px;
 }
 .header-conteiner .nav-bar .nav-bar-right a + a {
   margin-left: 35px;
